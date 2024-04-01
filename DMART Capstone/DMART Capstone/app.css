@@ -1,0 +1,40 @@
+/* set the drumset at the bottom of the page */
+#drumset {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* make gray drums rounded with a darker border */
+  .drum {
+    width: 20vmin;
+    height: 20vmin;
+    background: #ccc;
+    box-sizing: border-box;
+    border: 1vmin solid #333;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5vmin;
+  }
+  
+  /* make each drum of its respective color (remember 2-3-0-1) */
+  #drum-0 {
+    box-shadow: inset 0 0 0 2vmin blue;
+    top: -5vmin;
+  }
+  
+  #drum-1 {
+    box-shadow: inset 0 0 0 2vmin green;
+  }
+  
+  #drum-2 {
+    box-shadow: inset 0 0 0 2vmin red;
+  }
+  
+  #drum-3 {
+    box-shadow: inset 0 0 0 2vmin yellow;
+    top: -5vmin;
+  }
